@@ -3,7 +3,12 @@
 <div id="block1index">
     <div id="backgroundindex1">
         <img id="backgroundindex2" src="includes_css/img/hero.jpg">
-        <h2 id="backgroundtext">Welkom</h2>
+        <div id="backgroundtextblock">
+            <h2 id="backgroundtext">Welcome</h2>
+            <p id="backgroundtextsub">This is you're homepage which is what most visitors will see when they first vistit you're shop.</p>
+            <p id="backgroundtextsub">You can't change this text by editting the "Welcome" page via the "Pages" menu in your dashboard.</p>
+        </div>
+        
     </div>
 </div>
 
