@@ -1,0 +1,155 @@
+html{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*                  Header*/
+#block1head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#block1headA{
+   margin-left: 45px;
+}
+
+#logo{
+    width: 150px;
+}
+
+#block1headB{
+    display: flex;
+    margin-right: 30px;
+}
+
+#searchhead{
+    margin-top: 12px;
+    margin-right: 50px;
+    height: 30px;
+    width: 300px;
+    background-color: #EFF0F3;
+    border-color: #E5E5E5;
+    border-left: none;
+    outline: none;
+}
+
+#searchheadbutton{
+    height: 36px;
+    margin-right: -8px;
+    border-right: none;
+    outline: none;
+    background-color: #EFF0F3;
+    border-style: inset;
+    border-color: #E5E5E5;
+    color: gray;
+}
+
+#block1headBtext{
+    margin-right: 60px;
+    color: gray;
+}
+
+#block2head{
+    display: flex;
+    justify-content: space-between;
+}
+
+#block2headA{
+    display: flex;
+    flex-direction: row; 
+    margin-left: 30px;
+}
+
+#block2headB{
+    display: flex;
+    margin-right: 30px;
+}
+
+
+#itemsincarthead{
+    margin-right: 175px;
+    color: gray;
+}
+
+#prizehead{
+    margin-right: 15px;
+}
+
+#basketicon{
+    margin-top: 13px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+#block2headA_item{
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+/*                  indexblock1*/
+#block1index{
+display: flex;
+justify-content: center;
+}
+
+#backgroundindex2{
+    width: 100%;
+    height: 500px;
+    object-fit: fill;
+
+}
+
+#backgroundtext{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+
+    font-size: 50px;
+}
+
+/*                  indexblock2*/
+
+#block2index{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#block2indexitems{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#imagegridindextext{
+    text-align: center;
+    font-size: 30px;
+}
+
+#Imagegridindex{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+#img1{
+    width: 356px;
+    height: 356px;
+    margin-right: 40px;
+}
+#img2{
+    width: 356px;
+    height: 356px;
+    margin-right: 40px;
+}
+#img3{
+    width: 356px;
+    height: 356px;
+    margin-right: 40px;
+}
